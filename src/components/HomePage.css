@@ -1,0 +1,90 @@
+#header {
+  position: relative;
+}
+
+#header img[alt="PreIcon"] {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 20;
+  transition: filter 0.5s ease;
+}
+
+#header img[alt="PreIcon"].clicked {
+  filter: brightness(0.7);
+}
+
+#header img[alt="Banner"] {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#main-content {
+  position: relative;
+}
+
+#main-content img[alt="Title"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%;
+  width: 90%;
+}
+
+#footer {
+  /* Footer content styles */
+}
+
+/*시작버튼 css*/
+#start-button {
+  background: none;
+  border: none;
+  margin-top: 5%;
+  padding: 0;
+  cursor: pointer;
+}
+
+#start-button.clicked img {
+  filter: brightness(0.7);
+}
+
+#yapapa-cat{
+  border: 5px solid black;
+  margin-top: 5%;
+  position: relative;
+  display: inline-block;
+}
+
+#speech-balloon{
+  position: absolute;
+  transform: translate(80%, -30%);
+  z-index: 10;
+}
+
+#enjoy-count{
+  display: block;
+  opacity: 0.7;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+
+#hr-line{
+  display: block;
+  opacity: 0.3;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+
+#share-count{
+  display: block;
+  opacity: 0.8;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+
