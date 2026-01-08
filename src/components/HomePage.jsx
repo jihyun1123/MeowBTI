@@ -6,10 +6,6 @@ import KakaoShare from './kakaoShare';
 import TwitterShare from './twiterShare';
 import InstagramShare from './instarShare';
 import LinkShare from './linkShare';
-import KakaoShare from './kakaoShare';
-import TwitterShare from './twiterShare';
-import InstagramShare from './instarShare';
-import LinkShare from './linkShare';
 
 import './HomePage.css';
 
@@ -31,9 +27,7 @@ function HomePage() {
       </div>
 
       <div id="main-content">
-        <img src={title} alt="Title" />
-
-        <img src={sayBaloon} alt="Speech Balloon" id="speech-balloon" />
+        <img src={banner} alt="Title" className="title-img" />
 
         <img src={yapapacat} alt="Yapapa Cat" id="yapapa-cat" />
 
@@ -48,10 +42,13 @@ function HomePage() {
         <img src={hrLine} alt="Horizontal Line" id="hr-line" />
 
         <img src={shareCount} alt="Share Count" id="share-count" />
-        <TwitterShare/>
-        <InstagramShare />
-        <KakaoShare />
-        <LinkShare />
+        
+        <div className="share-buttons">
+          <TwitterShare/>
+          <InstagramShare />
+          <KakaoShare />
+          <LinkShare />
+        </div>
       </div>
     </div>
   )

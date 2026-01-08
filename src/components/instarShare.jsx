@@ -32,6 +32,7 @@ function InstagramShare() {
         cursor: "pointer",
         transform: isClicked ? "scale(0.95)" : "scale(1)",
         transition: "transform 0.2s ease",
+        marginTop: "10%",
       }}
     />
   );

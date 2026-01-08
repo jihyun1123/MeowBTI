@@ -24,14 +24,19 @@
 
 #main-content {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 #main-content img[alt="Title"] {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10%;
-  width: 90%;
+  margin-top: -50%;
+  width: 100%;
 }
 
 #footer {
@@ -42,8 +47,8 @@
 #start-button {
   background: none;
   border: none;
-  margin-top: 5%;
-  padding: 0;
+  padding-top: 10%;
+  margin-right: 5%;
   cursor: pointer;
 }
 
@@ -60,6 +65,7 @@
 
 #speech-balloon{
   position: absolute;
+  margin-top: -40%;
   transform: translate(80%, -30%);
   z-index: 10;
 }
@@ -69,7 +75,7 @@
   opacity: 0.7;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3%;
+  margin-top: -75%;
 }
 
 #hr-line{
@@ -77,7 +83,7 @@
   opacity: 0.3;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 #share-count{
