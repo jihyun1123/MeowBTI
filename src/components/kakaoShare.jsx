@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import kakaoButton from "../assets/kakao_icon.png";
+import kakaoButton from "./assets/icons/kakaoIcon.png";
 
 function KakaoShare() {
   const [isClicked, setIsClicked] = useState(false);

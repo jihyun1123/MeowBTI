@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import instagramButton from "../assets/instargram_icon.png";
+import instagramButton from "./assets/icons/instargramIcon.png";
 
 function InstagramShare() {
   const [isClicked, setIsClicked] = useState(false);

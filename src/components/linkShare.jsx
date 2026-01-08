@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import copyIcon from "../assets/link_icon.png";
+import copyIcon from "./assets/icons/linkIcon.png";
 
 function CopyLink() {
   const [copied, setCopied] = useState(false);

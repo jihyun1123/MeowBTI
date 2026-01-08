@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import twitterButton from "../assets/twitter_icon.png";
+import twitterButton from "./assets/icons/twitterIcon.png";
 
 function TwitterShare() {
   const [isClicked, setIsClicked] = useState(false);
